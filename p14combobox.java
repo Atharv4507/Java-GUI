@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 
 public class p14combobox extends JFrame implements ActionListener{
 
-    JComboBox cb;
+    JComboBox<String> cb;
     p14combobox(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
@@ -31,5 +31,6 @@ public class p14combobox extends JFrame implements ActionListener{
 
     public static void main(String[] args) {
         p14combobox p = new p14combobox();
+        System.out.println(p);
     }
 }

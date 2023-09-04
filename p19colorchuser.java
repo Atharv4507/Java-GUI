@@ -40,13 +40,13 @@ public class p19colorchuser extends JFrame implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e){
         if (e.getSource()==b) {
-            JColorChooser cc = new JColorChooser();
+            // JColorChooser cc = new JColorChooser();
             Color c = JColorChooser.showDialog(null, "Pick a color...", Color.BLACK);
 
             l.setForeground(c);
         }
         if (e.getSource()==b1) {
-            JColorChooser cc = new JColorChooser();
+            // JColorChooser cc = new JColorChooser();
             Color c = JColorChooser.showDialog(null, "Pick a color...", Color.BLACK);
 
             l.setBackground(c);

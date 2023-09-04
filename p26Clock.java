@@ -157,7 +157,7 @@ public class p26Clock extends JFrame implements ActionListener{
     
     public static void main(String[] args) {
         p26Clock p = new p26Clock();
-        // System.out.println(p);
+        System.out.println(p);
     }
     
 }
