@@ -50,7 +50,7 @@ public class p17MenuBar extends JFrame implements ActionListener {
         exit.addActionListener(this);
 
         file.setMnemonic(KeyEvent.VK_F);
-        edit.setMnemonic(KeyEvent.VK_E);
+        edit.setMnemonic(KeyEvent.VK_D);
         help.setMnemonic(KeyEvent.VK_H);
 
         load.setMnemonic(KeyEvent.VK_L);
